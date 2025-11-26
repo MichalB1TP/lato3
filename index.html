@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantyczny Układ 3</title>
+    <style>
+        body {
+            margin: 0 auto; 
+            padding: 0;
+            width: 600px;
+            height: 500px;  
+            display: flex;
+            flex-direction: column;
+        }
+        
+        header, section, main, footer {
+            border: 1px solid black; 
+            padding: 15px 5px; 
+            margin: 0;
+            text-align: center;
+        }
+        main {
+            display: flex; 
+            flex-direction: row; 
+            justify-content: space-between;
+            align-items: stretch;
+            margin-bottom: 0;
+        }
+
+        main article {
+            border: 1px solid black; 
+            margin: 0;
+            padding: 20px 5px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 35%;
+        }
+        
+    </style>
+</head>
+<body>
+    <p><b>INF.03-03-25.06-SG</b></p>
+
+    <header>
+        <h1>Blok nagłówkowy</h1>
+    </header>
+
+    <section>
+        <h2>Blok sekcji</h2>
+    </section>
+
+    <main>
+        <article>
+            <h4>Blok artykułu</h4>
+        </article>
+
+        <article>
+            <h4>Blok artykułu</h4>
+        </article>
+
+        <article>
+            <h4>Blok artykułu</h4>
+        </article>
+
+    </main>
+
+    <footer>
+        <p>Blok stopki</p>
+    </footer>
+
+</body>
+</html>
